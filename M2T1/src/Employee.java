@@ -25,11 +25,15 @@ public class Employee {
     }
 
     public Employee(String name, Integer employeeCode, Double salary) {
-        this(name, employeeCode, salary,0.0,"Indefinido");
+        this(name, employeeCode, salary,0.0,"Indefinite");
     }
 
     public Employee(String name, Integer employeeCode) {
-        this(name, employeeCode, 1250000.0, 0.0, "Indefinido");
+        this(name, employeeCode, 1250000.0, 0.0, "Indefinite");
+    }
+
+    public Employee(){
+        this("usuarioPrueba", 0, 0.0, 0.0, "indefinite");
     }
 
 
