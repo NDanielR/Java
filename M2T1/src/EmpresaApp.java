@@ -1,4 +1,4 @@
-public class App {
+public class EmpresaApp {
     public static void main(String[] args) {
         Employee employee1 = new Employee ("nelson ramirez", 12, 2000.0);
         employee1.salaryIncrease(600);
