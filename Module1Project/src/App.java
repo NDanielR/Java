@@ -88,7 +88,7 @@ public class App {
 
     public static void calculateAverageGrade(){
         double average = (grade1 + grade2 + grade3) / 3;
-        System.out.println("El promedio del estudiante es: " + average );
+        System.out.printf("El promedio del estudiante es: %.2f", average );
 
     }
 
