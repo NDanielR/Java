@@ -50,6 +50,10 @@ public class Employee {
         this.department = modifDepartment;
     }
 
+    public double annualSalary(){
+        return salary * 12;
+    }
+
 
     //getters
     private String getName() {

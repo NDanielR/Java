@@ -5,6 +5,7 @@ public class App {
         Employee employee2 = new Employee ("jhorman ramirez",13,3000.0,0.0,"ventas");
         Employee employee3 = new Employee ();
         System.out.println(employee1.toString());
+        System.out.println("salario anual = " + employee1.annualSalary());
         System.out.println(employee2.toString());
         System.out.println(employee3.toString());
     }
